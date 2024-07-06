@@ -123,6 +123,7 @@ input {
 }
 
 .todo {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   display: flex;
   margin-top: 1rem;
@@ -136,7 +137,6 @@ input {
 .todo:hover {
   border-style: dashed;
   transform: scale(1.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-color: #39FF14;
   box-shadow: 0 0 60px rgba(34, 255, 0, 0.5); /* Glow effect on hover */
   /* border-radius: 20px;  */
